@@ -5,7 +5,7 @@ public class OrbitingScript : MonoBehaviour
     public GameObject Target;
 
     public float Speed = 0.5f;
-    public float OrbitSpeed = 0.5f;
+    public float OrbitSpeed = 0.1f;
 
     void FixedUpdate()
     {

@@ -3,11 +3,11 @@ using UnityEngine;
 public class YaxisRotation : MonoBehaviour
 {
 
-    public float Amplitude = 1.0f;
-    public float Frequency = 1.0f;
+    public float Amplitude = 90f;
+    public float Frequency = 0.5f;
     public float TimeElapsed = 0.0f;
 
-    public int Speed = 1;
+    public int Speed = 5;
 
     void Update()
     {
