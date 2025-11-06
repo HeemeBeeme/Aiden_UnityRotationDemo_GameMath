@@ -9,10 +9,6 @@ public class YaxisRotation : MonoBehaviour
 
     public int Speed = 1;
 
-    void Start()
-    {
-        
-    }
     void Update()
     {
         transform.eulerAngles = new Vector3(0, (Amplitude * Mathf.Sin(Frequency * TimeElapsed) + 2), 0);
